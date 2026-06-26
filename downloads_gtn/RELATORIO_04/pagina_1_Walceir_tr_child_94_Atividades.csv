@@ -1,0 +1,6 @@
+Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
+10;Selecionar em Contabilidade;Sucesso;;Modulo acessado;Navegador > Contabilidade Geral;Controladoria;Fusion: GL;Walceir Hernandes;;
+20;Selecionar em Tarefas eLancamentos;Sucesso;;Tarefa acessada;Selecionar em Tarefas eLancamentos;Controladoria;Fusion: GL;Walceir Hernandes;;
+30;Informar os parametros necessarios e obrigatorios;Sucesso;;Dados obrigatorios informados;Informar os parametros necessarios e obrigatorios;Controladoria;Fusion: GL;Walceir Hernandes;;
+40;Pesquisar;Sucesso;;Lancamento encontrado;Pesquisar;Controladoria;Fusion: GL;Walceir Hernandes;;
+50;Validar Contabilizacao;Sucesso;;Contabilizacao validada;Validar Contabilizacao;Controladoria;Fusion: GL;Walceir Hernandes;;

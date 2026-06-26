@@ -1,0 +1,5 @@
+Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
+10;Buscar Lancamento a ser estornado;Sucesso;;Lancamento encontrado;Navegador > Contabilidade Geral > Lancamentos > Tarefas > Gerenciar Lancamentos > Pesquisar Lancamentos;Controladoria;Fusion: GL;Walceir Hernandes;;
+20;Acoes e Reverter Lancamentos;Sucesso;;Lancamento revertido;> Acoes do Lote ou Acoes do Lancamento > Reverter;Controladoria;Fusion: GL;Walceir Hernandes;;
+30;Submeter Lancamento para Aprovacao;Sucesso;;Lancamento contabilizado;Submeter Lancamento para Aprovacao;Controladoria;Fusion: GL;Walceir Hernandes;;
+40;Validar Lote Revertido;Sucesso;;Lancamento validado;Validar Lote Revertido;Controladoria;Fusion: GL;Walceir Hernandes;;

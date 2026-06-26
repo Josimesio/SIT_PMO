@@ -1,0 +1,49 @@
+{
+  "resumo": {
+    "ultima_atualizacao": "Aguardando consolidação real",
+    "tempo_geracao": "-",
+    "arquivo_origem": "consolidado_HH-MM-SS.xlsx",
+    "observacao": "Este arquivo é exemplo. Rode tools/atualizar_site_do_consolidado.py para gerar com dados reais."
+  },
+  "itens": [
+    {
+      "responsavel": "Walceir",
+      "frente": "RELATORIO_01",
+      "relatorio_origem": "RELATORIO_01",
+      "cenario": "Exemplo - cenário bloqueado",
+      "status": "Bloqueado",
+      "ocorrencia": "Ocorrência aberta de exemplo",
+      "arquivo_origem": "exemplo.xlsx",
+      "bloqueado": true,
+      "ocorrencia_aberta": true,
+      "nao_iniciado": false,
+      "indice_apoio": 8
+    },
+    {
+      "responsavel": "Camila",
+      "frente": "RELATORIO_05",
+      "relatorio_origem": "RELATORIO_05",
+      "cenario": "Exemplo - cenário não iniciado",
+      "status": "Não iniciado",
+      "ocorrencia": "",
+      "arquivo_origem": "exemplo_nao_iniciado.csv",
+      "bloqueado": false,
+      "ocorrencia_aberta": false,
+      "nao_iniciado": true,
+      "indice_apoio": 1
+    },
+    {
+      "responsavel": "LucasRamos",
+      "frente": "RELATORIO_09",
+      "relatorio_origem": "RELATORIO_09",
+      "cenario": "Exemplo - em execução",
+      "status": "Em execução",
+      "ocorrencia": "",
+      "arquivo_origem": "exemplo_execucao.xlsx",
+      "bloqueado": false,
+      "ocorrencia_aberta": false,
+      "nao_iniciado": false,
+      "indice_apoio": 0
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal de Destravamento — Programa Conecta</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">PC</div>
+        <div>
+          <h1>Programa Conecta</h1>
+          <p>Portal de Destravamento</p>
+        </div>
+      </div>
+
+      <nav class="menu" aria-label="Menu principal">
+        <button class="menu-item active" data-target="visao-executiva">Visão Executiva</button>
+        <button class="menu-item" data-target="mapa-apoio">Mapa de Apoio</button>
+        <button class="menu-item" data-target="fila-destravamento">Fila de Destravamento</button>
+        <button class="menu-item" data-target="ocorrencias">Ocorrências</button>
+        <button class="menu-item" data-target="nao-iniciados">Não Iniciados</button>
+        <button class="menu-item" data-target="detalhamento">Detalhamento</button>
+      </nav>
+
+      <div class="sidebar-note">
+        <strong>Conceito</strong>
+        <span>O foco é mostrar travas, riscos e necessidade de apoio. Não é painel de cobrança individual.</span>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Painel Executivo</p>
+          <h2>Portal de Destravamento — Programa Conecta</h2>
+          <p class="subtitle">Visibilidade, priorização e ação gerencial para remover impedimentos do projeto.</p>
+        </div>
+        <div class="update-card">
+          <span>Última atualização</span>
+          <strong id="ultimaAtualizacao">Carregando...</strong>
+          <small id="tempoGeracao">Tempo de geração: -</small>
+        </div>
+      </header>
+
+      <section class="filters-panel">
+        <div class="filter-group">
+          <label for="filtroResponsavel">Responsável de Tratativa</label>
+          <select id="filtroResponsavel"></select>
+        </div>
+        <div class="filter-group">
+          <label for="filtroFrente">Frente / Grupo</label>
+          <select id="filtroFrente"></select>
+        </div>
+        <div class="filter-group">
+          <label for="filtroStatus">Status</label>
+          <select id="filtroStatus"></select>
+        </div>
+        <div class="filter-actions">
+          <button id="btnSomenteAcao" class="btn btn-primary">Mostrar somente o que exige ação</button>
+          <button id="btnLimparFiltros" class="btn btn-secondary">Limpar filtros</button>
+        </div>
+      </section>
+
+      <section id="visao-executiva" class="view active-view">
+        <div class="kpi-grid">
+          <article class="kpi-card"><span>Total analisado</span><strong id="kpiTotal">0</strong><small>Cenários/linhas processadas</small></article>
+          <article class="kpi-card"><span>Em execução</span><strong id="kpiExecucao">0</strong><small>Itens em andamento</small></article>
+          <article class="kpi-card warning"><span>Não iniciados</span><strong id="kpiNaoIniciados">0</strong><small>Fila que precisa de direção</small></article>
+          <article class="kpi-card danger"><span>Bloqueados</span><strong id="kpiBloqueados">0</strong><small>Impedimentos ativos</small></article>
+          <article class="kpi-card danger"><span>Ocorrências abertas</span><strong id="kpiOcorrencias">0</strong><small>Pontos em tratamento</small></article>
+          <article class="kpi-card focus"><span>Índice de Apoio</span><strong id="kpiIndiceApoio">0</strong><small>Prioridade gerencial</small></article>
+        </div>
+
+        <div class="grid-2">
+          <section class="panel">
+            <div class="panel-header">
+              <h3>Saúde da Execução</h3>
+              <span>Distribuição por status</span>
+            </div>
+            <canvas id="chartStatus" width="520" height="300"></canvas>
+          </section>
+          <section class="panel">
+            <div class="panel-header">
+              <h3>Alertas de Gestão</h3>
+              <span>O que merece atenção agora</span>
+            </div>
+            <div id="alertasGestao" class="alert-list"></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="mapa-apoio" class="view">
+        <section class="panel">
+          <div class="panel-header">
+            <h3>Mapa de Apoio por Frente / Grupo</h3>
+            <span>Onde existe maior necessidade de ação</span>
+          </div>
+          <div class="table-wrap">
+            <table id="tabelaMapaApoio">
+              <thead>
+                <tr>
+                  <th>Frente / Grupo</th>
+                  <th>Total</th>
+                  <th>Não iniciados</th>
+                  <th>Bloqueados</th>
+                  <th>Ocorrências</th>
+                  <th>Índice de Apoio</th>
+                  <th>Situação</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section id="fila-destravamento" class="view">
+        <section class="panel">
+          <div class="panel-header">
+            <h3>Fila de Destravamento — Top 20</h3>
+            <span>Itens para ação gerencial primeiro</span>
+          </div>
+          <div class="table-wrap">
+            <table id="tabelaFila">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Responsável</th>
+                  <th>Frente</th>
+                  <th>Cenário / Item</th>
+                  <th>Status</th>
+                  <th>Ocorrência</th>
+                  <th>Índice</th>
+                  <th>Ação Recomendada</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section id="ocorrencias" class="view">
+        <section class="panel">
+          <div class="panel-header">
+            <h3>Ocorrências Abertas</h3>
+            <span>Problemas ativos que precisam de tratativa</span>
+          </div>
+          <div class="table-wrap">
+            <table id="tabelaOcorrencias">
+              <thead>
+                <tr>
+                  <th>Responsável</th>
+                  <th>Frente</th>
+                  <th>Cenário / Item</th>
+                  <th>Status</th>
+                  <th>Ocorrência</th>
+                  <th>Ação Recomendada</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section id="nao-iniciados" class="view">
+        <section class="panel">
+          <div class="panel-header">
+            <h3>Cenários Não Iniciados</h3>
+            <span>Fila parada, dependência ou execução ainda não aberta</span>
+          </div>
+          <div class="table-wrap">
+            <table id="tabelaNaoIniciados">
+              <thead>
+                <tr>
+                  <th>Responsável</th>
+                  <th>Relatório</th>
+                  <th>Frente</th>
+                  <th>Cenário / Item</th>
+                  <th>Arquivo origem</th>
+                  <th>Ação Recomendada</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section id="detalhamento" class="view">
+        <section class="panel">
+          <div class="panel-header">
+            <h3>Detalhamento Geral</h3>
+            <span>Base consolidada filtrável</span>
+          </div>
+          <div class="table-wrap large-table">
+            <table id="tabelaDetalhe">
+              <thead>
+                <tr>
+                  <th>Responsável</th>
+                  <th>Frente</th>
+                  <th>Relatório</th>
+                  <th>Cenário / Item</th>
+                  <th>Status</th>
+                  <th>Ocorrência</th>
+                  <th>Arquivo</th>
+                  <th>Ação Recomendada</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

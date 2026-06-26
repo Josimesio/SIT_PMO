@@ -1,0 +1,3 @@
+Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
+10;Buscar Lancamento a ser contabilizado;Não Executado;;Lancamento encontrado;Navegador > Contabilidade Geral > Contabilidade Automatica;Controladoria;Fusion: GL;Walceir Hernandes;;
+20;Acoes e Contabilizar Lancamentos;Não Executado;;Lancamento contabilizado;> Informar Dados e Submeter;Controladoria;Fusion: GL;Walceir Hernandes;;

@@ -1,0 +1,6 @@
+Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
+10;Selecionar em Contabilidade;Sucesso;;Modulo acessado;Navegador > Contabilidade Geral > Fechamento do> Contabilidade;Controladoria;Fusion: GL;Walceir Hernandes;;
+20;Selecionar em Gerenciar Periodos Contabeis;Sucesso;;Tarefa acessada;Navegador > Contabilidade Geral > Fechamento do> Contabilidade;Controladoria;Fusion: GL;Walceir Hernandes;;
+30;Selecionar no Razao;Sucesso;;Tipo de transacao selecionada;Navegador > Contabilidade Geral > Fechamento do> Contabilidade;Controladoria;Fusion: GL;Walceir Hernandes;;
+40;Escolher o Periodo;Sucesso;;Periodo selecionado;Navegador > Contabilidade Geral > Fechamento do> Contabilidade;Controladoria;Fusion: GL;Walceir Hernandes;;
+50;Selecionar em Abrir Periodo;Sucesso;;Periodo aberto;Selecionar em Abrir Periodo;Controladoria;Fusion: GL;Walceir Hernandes;;
