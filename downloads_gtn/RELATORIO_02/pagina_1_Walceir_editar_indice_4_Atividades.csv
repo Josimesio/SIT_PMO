@@ -1,9 +1,0 @@
-Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
-10;Importar Lancamentos;Sucesso;;Tarefa acessada;Navegador > Contabilidade Geral > Lancamentos > Tarefas > Importar Lancamentos;Controladoria;Fusion: GL;Walceir Hernandes;;
-20;Informar parametros de importacao;Sucesso;;Dados obrigatorios informados;Informar parametros de importacao;Controladoria;Fusion: GL;Walceir Hernandes;;
-30;Submeter importacao de lancamentos;Sucesso;;Lancamento importado;Submeter importacao de lancamentos;Controladoria;Fusion: GL;Walceir Hernandes;;
-40;Verificar Relatorio de Importacao;Sucesso;;Lancamento importado;Terramentas > > Processos Programados > Submeter Novo Processo > Relatorio de Importacao de Lancamentos;Controladoria;Fusion: GL;Walceir Hernandes;;
-50;Corrigir importacao de lancamentos;Sucesso;;Lancamento corrigido;Corrigir importacao de lancamentos;Controladoria;Fusion: GL;Walceir Hernandes;;
-60;Submeter importacao de lancamentos;Sucesso;;Lancamento importado;Navegador > Contabilidade Geral > Lancamentos > Tarefas > Importar Lancamentos;Controladoria;Fusion: GL;Walceir Hernandes;;
-70;Validar Lote Importado;Sucesso;;Lancamento validado;Validar Lote Importado;Controladoria;Fusion: GL;Walceir Hernandes;;
-80;Submeter Lancamento para Aprovacao;Sucesso;;Lancamento contabilizado;Submeter Lancamento para Aprovacao;Controladoria;Fusion: GL;Walceir Hernandes;;

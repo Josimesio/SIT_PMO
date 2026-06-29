@@ -1,4 +1,0 @@
-Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
-10;Acessar Tela de Auditoria;Sucesso;;Tarefa acessada;Navegador> Eu> Despesas;Financeiro;Fusion: Expenses;Jurema Lorenzoni;;
-20;Pesquisar relatorios pendentes de Auditoria;Sucesso;;Relatorio de despesa encontrado;Assistir video> Clicar em Ir para Viagens e Despesas;Financeiro;Fusion: Expenses;Jurema Lorenzoni;;
-30;Auditar Relatorio de Despesa;Sucesso;;Relatorio de despesa auditado;Clicar em Criar Relatorio> Preencher Finalidade;Financeiro;Fusion: Expenses;Jurema Lorenzoni;;

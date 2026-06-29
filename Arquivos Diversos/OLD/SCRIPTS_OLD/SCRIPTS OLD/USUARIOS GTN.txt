@@ -1,0 +1,86 @@
+USUARIOS GTN
+
+
+Kelvin Junior
+Deise Cristiane da Rosa
+Erik Kruger
+Leonardo Gomes
+Volnei Pereira
+Luiz Antonio Carrasco Junior
+Franciele Almeida
+Fernando Bueno
+Cezar Augusto
+
+João Marcos Corso
+Cidmar França
+Dalton Skajko Sales
+Dirceu Ribeiro
+Marco Uliano
+Paulo Pacheco
+Ricardo Sousa
+Gabriel Miranda
+Willian Alves
+Moacir Lopes
+Rafael Miranda Da Silva
+Carmo Silva
+Edineia Pilonetto
+Elenyr Maria De Souza Santin
+Fernanda Farias
+Leila Raber
+Vanderlei Favero
+Maiara Boncoski
+Jackeline Dallagnol
+Lucas Ramos
+
+Eloíza Martins
+Rafael Brandão
+
+Kleber Cadamuro
+Helder Buscarato
+Lucas da Luz Furlani
+Luan de Andrade
+Felipe Otavio
+Luiz Antonio Rodrigues
+Cristiano Bilk
+Jonathan Vieira
+
+
+
+Kelvin Junior, Deise Cristiane da Rosa, Wilson Alves, Erik Kruger, Leonardo Gomes, Volnei Pereira, Luiz Antonio Carrasco Junior, Franciele Almeida, Fernando Bueno
+10041
+
+
+
+Unidade de negocio pode ser que esta em ordem ao clicar nos cenários. veirifcar isso
+
+
+
+PLUMA AGROAVICOLA LTDA
+
+WALCEIR PI = 45
+WALCEIR P2 = 38
+WALCEIR P3 = 27
+WALCEIR P9 = 88
+CAMILA P1 = 39
+CAMILA P2 = 87
+CAMILA P3 = 36
+CAMILA P9 = 148
+LUCASRAMOS P1 = 88
+LUCASRAMOS P2 = 31
+LUCASRAMOS P3 = 14
+LUCASRAMOS P9 = 10
+
+
+
+Lucas Ramos
+Camila Lorena Maciel
+Walceir Hernandes
+Renato Mezzalira
+Adriel Silva
+Deise Cristiane da Rosa
+Gabriel Miranda
+
+
+
+
+

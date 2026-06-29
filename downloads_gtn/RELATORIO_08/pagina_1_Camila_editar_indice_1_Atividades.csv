@@ -1,6 +1,0 @@
-Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
-10;Acessar modulo de Despesas;Sucesso;;Modulo acessado;Navegador> Eu> Despesas;Financeiro;Fusion: Expenses;Lucas Ramos;;
-20;Realizar tour do Produto de Despesas;Sucesso;;Video normativo demonstrado;Assistir video> Clicar em Ir para Viagens e Despesas;Financeiro;Fusion: Expenses;Lucas Ramos;;
-30;Acessar tela de Gestao de De Contas Bancarias;Sucesso;;Dados obrigatorios informados;Clicar em Ir para Tarefa> Gerenciar Contas Bancarias;Financeiro;Fusion: Expenses;Lucas Ramos;;
-40;Cadastrar Dados Bancarios para pagamento;Sucesso;;Dados obrigatorios informados;Clicar em Criar> Preencher Dados Bancarios> Clicar em Salvar e Fechar;Financeiro;Fusion: Expenses;Lucas Ramos;;
-50;Marcar Conta Principal Dados Bancarios para pagamento;Sucesso;;Dados obrigatorios informados;Selecionar Conta Principal>Clicar ícone de marca de seleção>marca de  seleção aparecerá na coluna Principal>Salvar e Fechar;Financeiro;Fusion: Expenses;Lucas Ramos;;

@@ -1,6 +1,0 @@
-Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
-10;Informar Dados de Lancamento;Sucesso;;Dados obrigatorios informados;Criar Lancamentos > Informar Dados de Lancamento;Controladoria;Fusion: GL;Walceir Hernandes;;
-20;Realizar lancamento Conta Contabil com restricao Lancamentos Manuais;Sucesso;;Lancamento nao permitido;Criar Lancamentos > Informar Dados de Lancamento > Informar Conta Contabil nao permitida;Controladoria;Fusion: GL;Walceir Hernandes;;
-30;Realizar lancamento Regras de Validacao;Sucesso;;Lancamento nao permitido;Criar Lancamentos > Informar Dados de Lancamento > Informar Combinacao contabil invalida;Controladoria;Fusion: GL;Walceir Hernandes;;
-40;Submeter Lancamento para Aprovacao;Sucesso;;Lancamento contabilizado;Submeter Lancamento para Aprovacao;Controladoria;Fusion: GL;Walceir Hernandes;;
-50;Validar Contabilizacao;Sucesso;;Contabilizacao validada;Validar Contabilizacao;Controladoria;Fusion: GL;Walceir Hernandes;;

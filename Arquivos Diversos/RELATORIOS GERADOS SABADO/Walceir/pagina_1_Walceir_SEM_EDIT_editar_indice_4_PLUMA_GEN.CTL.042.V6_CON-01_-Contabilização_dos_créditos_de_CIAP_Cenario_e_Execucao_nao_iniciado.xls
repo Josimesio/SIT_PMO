@@ -1,0 +1,2 @@
+﻿LIDER_CENARIO;STATUS_EDIT_CENARIO;IDENTIFICADOR_DE_CENARIO;COMANDO_CENARIO_EXECUCOES;NOME_CENARIO;PAGINA_APEX;ORIGEM_LINHA
+Walceir;SEM_EDIT_PLACEHOLDER;PLUMA_GEN.CTL.042.V6;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_GEN.CTL.042.V6"").click()";CON-01 -Contabilização dos créditos de CIAP;1;editar_indice_4

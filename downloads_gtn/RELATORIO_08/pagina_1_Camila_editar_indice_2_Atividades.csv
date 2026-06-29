@@ -1,6 +1,0 @@
-Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
-10;Acessar modulo de Despesas;Sucesso;;Modulo acessado;Navegador> Eu> Despesas;Financeiro;Fusion: Expenses;Jurema Lorenzoni;;
-20;Realizar tour do Produto de Despesas;Sucesso;;Video normativo demonstrado;Assistir video> Clicar em Ir para Viagens e Despesas;Financeiro;Fusion: Expenses;Jurema Lorenzoni;;
-30;Acessar tela de Gestao de Representantes;Sucesso;;Tarefa acessada;Clicar em Ir para Tarefa> Gerenciar Representantes;Financeiro;Fusion: Expenses;Jurema Lorenzoni;;
-40;Cadastrar Representante;Sucesso;;Tarefa acessada;Clicar em Ir para Tarefa> Gerenciar Representantes;Financeiro;Fusion: Expenses;Jurema Lorenzoni;;
-50;Alterar Representante;Sucesso;;Dados obrigatorios informados;Clicar em Adicionar> Pesquisar Pessoa> Clicar em Salvar e Fechar;Financeiro;Fusion: Expenses;Jurema Lorenzoni;;

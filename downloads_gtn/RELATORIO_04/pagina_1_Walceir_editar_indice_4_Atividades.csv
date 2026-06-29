@@ -1,8 +1,0 @@
-Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
-10;Copiar Lancamentos Contabeis;Não Executado;;Lancamento encontrado;Navegador > Contabilidade Geral > Lancamentos > Copiar;Controladoria;Fusion: GL;Walceir Hernandes;;
-20;Copiar Lancamentos Contabeis;Não Executado;;Lancamento encontrado;Navegador > Contabilidade Geral > Lancamentos > Consultar;Controladoria;Fusion: GL;Walceir Hernandes;;
-30;Copiar Lancamentos Contabeis;Não Executado;;Lancamento encontrado;Navegador > Contabilidade Geral > Lancamentos > Realizar Cópia;Controladoria;Fusion: GL;Walceir Hernandes;;
-40;Buscar Lancamento a ser copiado;Não Executado;;Lancamento encontrado;Navegador > Contabilidade Geral > Lancamentos > Tarefas > Gerenciar Lancamentos > Pesquisar Lancamentos;Controladoria;Fusion: GL;Walceir Hernandes;;
-50;Acoes e Copiar Lancamentos;Não Executado;;Lancamento copiado;> Acoes do Lote ou Acoes do Lancamento > Copiar;Controladoria;Fusion: GL;Walceir Hernandes;;
-60;Validar Lote Copiado;Não Executado;;Lancamento validado;Validar Lote Copiado;Controladoria;Fusion: GL;Walceir Hernandes;;
-70;Submeter Lancamento para Aprovacao;Não Executado;;Lancamento contabilizado;Submeter Lancamento para Aprovacao;Controladoria;Fusion: GL;Walceir Hernandes;;

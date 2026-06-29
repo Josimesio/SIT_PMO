@@ -1,0 +1,24 @@
+V6 - SEM EDIT RÁPIDO
+
+O que esta versão corrige:
+- A V5 não travou de erro; ela ficou lenta no bloco SEM_EDIT.
+- O log mostrou cada cenário sem Edit aguardando 15000ms antes de criar placeholder.
+- A V6 reduz essa espera para 5000ms.
+
+Principais flags:
+TIMEOUT_EDIT_EXECUCAO=5000
+TIMEOUT_EDIT_EXECUCAO_OTIMIZADO_MS=5000
+OVERLAY_TIMEOUT_MS=1000
+MAX_WAIT_FOR_TIMEOUT_MS=450
+PROXIMO_TIMEOUT_MS=500
+SLOW_MO_BROWSER_MS=0
+
+Como aplicar:
+1. Copie os arquivos para a pasta do projeto ou para GTN_19_RELATORIOS_SCRIPTS_E_ENVS_CORRIGIDOS.
+2. Rode:
+   python APLICAR_FLAGS_OTIMIZACAO_ENV_ADRIEL_P3_V6_SEM_EDIT_RAPIDO.py
+3. Rode:
+   python GTN_RELATORIO_17_AdrielSilva_P3_METRICAS_OTIMIZADO_V6_SEM_EDIT_RAPIDO.py
+
+Se ainda ficar lento, o próximo ajuste provável é reduzir TIMEOUT_EDIT_EXECUCAO para 3000ms.
+Mas 5000ms é o ponto conservador para não perder links Edit legítimos.
