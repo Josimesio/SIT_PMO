@@ -1,0 +1,2 @@
+﻿LIDER_CENARIO;STATUS_EDIT_CENARIO;IDENTIFICADOR_DE_CENARIO;COMANDO_CENARIO_EXECUCOES;NOME_CENARIO;PAGINA_APEX;ORIGEM_LINHA;Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
+RenatoMezzalira;SEM_EDIT_PLACEHOLDER;BELLO.PTM.1177.V4;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""BELLO.PTM.1177.V4"").click()";GRF.04.OUTROS.1011 - ALUGUEIS DE IMOVEIS;1;tr_child_108;;;;;;;;;;;

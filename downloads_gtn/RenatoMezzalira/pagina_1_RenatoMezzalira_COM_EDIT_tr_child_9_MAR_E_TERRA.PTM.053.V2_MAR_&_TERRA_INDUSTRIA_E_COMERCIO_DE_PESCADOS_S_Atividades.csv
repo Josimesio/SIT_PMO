@@ -1,0 +1,84 @@
+﻿LIDER_CENARIO;STATUS_EDIT_CENARIO;IDENTIFICADOR_DE_CENARIO;COMANDO_CENARIO_EXECUCOES;NOME_CENARIO;PAGINA_APEX;ORIGEM_LINHA;Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;10;10 - INV: Pré-Validação de Cadastros - ITEM;Bloqueado;;Confirmar cadastro do Item cadastrado no Oracle com as variações do Negócio.;Pré-Validação de Cadastros de ITENS;Cadastros;Fusion: INV;Leonardo Gomes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;20;20 - PO: Pré-Validação de Cadastros - CLIFOR;Bloqueado;;Confirmar cadastros do Fornecedores/Clientes cadastrado nos Oracle com as variações do Negócio.;Pré-Validação de Cadastros de CLIFOR;Cadastros;Fusion: PO;Leonardo Gomes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;30;30 - FDC: Verificar Nota Fiscal de Mercadoria Recebida;Não Executado;;Confirmação da Nota Fiscal Capturada no FDC;Execução da Cadeia de Suprimentos > Captura do Documento Fiscal> Tarefas > Gerenciar Documentos Fiscais de Entrada > Pesquisar > Selecionar Documento;Fiscal;Fusion: FDC;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;40;40 - Transportador Emite CTE;Não Executado;;CTE Emitido pelo Transportador;"1. Recebe Nota Fiscal de Mercadoria do Fornecedor
+2. Transportador Emite CTE, informando o número dad NFs a serem Transportadas";Logistica e Transporte;OTM:Transportation;Willian Alves;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;50;"50 - TAXFY: Tratamento e Validação Comercial do Documento e Carregar XML para o UCM
+";Não Executado;;Arquivo de Nota Fiscal Validado e Disponivel para o OIC;O processo de captura na SEFAZ e carga do XML no ERP - Parceiro Fiscal Taxfy;Fiscal;KT: Taxfy;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;60;"60 - FDC: Executar Processo de Importação do XML para Interface
+";Não Executado;;Arquivos do XML da NF + CTE processados para interface com sucesso;Ferramentas> Processos Programados > Programar novo processo > Importar Documentos Eletrônicos do Brasil;Fiscal;Fusion: FDC;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;70;70 - FDC: Executar Processo de Importacao do XML para tabelas definitivas do FDC;Não Executado;;Documento importado com sucesso;Ferramentas > Processos Programados> Importação e Validação de Documentos Fiscais Eletrônicos;Fiscal;Fusion: FDC;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;80;80 - FDC: Gerenciar Documento na Interface do FDC;Não Executado;;Documento ajustado para reprocessamento;"Execução da Cadeia de Suprimentos > Captura do Documento Fiscal> Tarefas > Gerenciar Exceções da Interface > Selecionar Documento> Detalhes do Cabeçalho do Documento Fiscal > Revisar os dados do cabeçalho
+Linhas do Documento Fiscal > Revisar dados das linhas
+         Tipo de Documento 
+         Tipo de Linha 
+         UN do Documento de Origem
+         Item
+         Descrição
+         UDM
+         Quantidade
+         Valor
+         Numero
+         Linha
+         Salvar e Fechar > Concluído
+Status do documento devera ser alterado para Modificado""";Fiscal;Fusion: FDC;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;90;90 - FDC: Executar Job de Importacao do XML para tabelas definitivas do FDC;Não Executado;;Documento importado com sucesso;Ferramentas > Processos Programados> Importação e Validação de Documentos Fiscais Eletrônicos;Fiscal;Fusion: FDC;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;100;100 - FDC: Acessar Modulo do FDC;Não Executado;;Modulo acessado;Execução da Cadeia de Suprimentos > Captura do Documento Fiscal >  Tarefas > Gerenciar Documentos Fiscais de Entrada;Fiscal;Fusion: FDC;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;110;110 - FDC: Gerenciar Documento no Modulo do FDC;Não Executado;;Documento encontrado;Execução da Cadeia de Suprimentos > Captura do Documento Fiscal >  Tarefas > Gerenciar Documentos Fiscais de Entrada > Selecionar Documento;Fiscal;Fusion: FDC;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;120;120 - FDC: Validar informacoes do Documento Fiscal realizando o Recebimento Fiscal;Não Executado;;Dados obrigatórios validados (RPA (Robotic Process Automation) Fluxo CT-e;"Conferir informacoes de entrada e fiscais > Validar documentos Fiscais
+Revisar informacoes do cabecalho    
+     Data confirmada - Data de entrada do documento                                                                      
+Revisar informacoes das linhas
+    CFOP de entrada
+    Intenção de Uso
+    Classificação Fiscal definida pelo Usúario
+    NCM (Classificação Fiscal do Produto)
+    Origem da Mercadoria (Classificação do Imposto)        
+    Aba de Programacoes (Ordem de Compra) 
+Conferir Encargos (Fretes, Descontos, seguros, Despesas Acessórias)    
+Na aba Impostos e possível visualizar os impostos destacados na NF
+Ações > Validar Documento Fiscal 
+Retenções e Erros de Validação > Selecionar Retenção > Liberar Retenção > Selecionar Motivo > OK ";Fiscal;Fusion: FDC;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;130;130 - FDC: Validar CTE em HOLD integração LOG LS;Não Executado;;CTE deverá estar em HOLD no FDC;Execução da Cadeia de Suprimentos > Captura do Documento Fiscal >  Tarefas > Gerenciar Documentos Fiscais de Entrada > Selecionar Documento> Verificar HOLD da LOG LS;Logistica e Transporte;OTM:Transportation;Willian Alves;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;140;140 - LOG LS: Conciliação do CTE com o Planejamento do OTM;Não Executado;;CTE x Fatura conciliada no LOG LS;Processo deverá ser automatizado (Em desenvolvimento pelo time da LOG LS);Logistica e Transporte;OTM:Transportation;Willian Alves;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;150;150 - FDC: Validar CTE liberado pela integração LOG LS ;Não Executado;;CTE deverá estar em Liberado no FDC (Sem HOLD);Processo deverá ser automatizado (Em desenvolvimento pelo time da LOG LS);Logistica e Transporte;OTM:Transportation;Willian Alves;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;160;160 - Capturar Documento no modulo do FDC;Não Executado;;Documento Capturado;Execução da Cadeia de Suprimentos > Captura do Documento Fiscal >  Tarefas > Gerenciar Documentos Fiscais de Entrada > Selecionar Documento > Conferir informações de entrada e fiscais > Validar Documento Fiscal;Fiscal;Fusion: FDC;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;170;170 - Confirmar Entregas do Itens;Não Executado;;Confirmação do Recebimento dos Itens;Execução da Cadeia de Suprimentos > Captura do Documento Fiscal >  Tarefas > Confirmar Entrega do Item > Selecionar Documento > Registrar Entregas automaticas > Validar Entregas;Fiscal;Fusion: FDC;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;180;180 - Conferir Conhecimento de Transporte no Contas a Pagar (Em HOLD);Não Executado;;"Titulo encontrado_x000D_
+Titulo validado_x000D_
+Dados obrigatórios informados";"Pesquisar Titulo / Validar Dados / Validar Informações Adicionais
+Navegador > Contas a  pagar > NFF >
+ Tarefas > Gerenciar NFF > Informar parâmetros de pesquisa
+Validar Dados no Cabeçalho e Linha
+ Mostrar Mais> Informações Adicionais> Preencher valor de Contexto de Acordo com o Documento";Fiscal;Fusion: AP;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;190;190 - Realizar a validacao da CTE no Contas a Pagar;Não Executado;;Titulo validado;"Manual: Contas a Pagar > Tarefas > NFFs > Acoes > Validar
+Programado: Ferramentas > Processos Programados > Validar NFFs de Contas a Pagar";Fiscal;Fusion: AP;Renato Mezzalira;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;200;"200 - Contabilizar o CTE ""PRELIMINAR""";Não Executado;;Documento contabilizado;"1) Manual: Contas a Pagar > Tarefas > NFFs/Pagamentos > Acoes > Contabilizar como Preliminar
+2) Programado: Ferramentas > Processos Programados > Criar Contabilidade > Parametros: 
+Aplicativo do Sub-Razão: Contas a Pagar
+Razão: (Informar o Razão da Empresa)
+Data Final: (Sysdate)
+Modo de Contabilidade: Preliminar
+Eventos do Processo: Todos
+Estilo do Relatório: Detalhes
+Transferir para Razão Geral: Não
+Contabilizar no Razão Geral: Não
+*Incluir Identificadores de Transação do Usuário: Não	";Controladoria;Fusion: AP;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;210;210 - Validar Contabilização: Selecionar Tarefa Contabilidade do Sub-razao;Não Executado;;Tarefa acessada;Navegador > Contabilidade Geral > Lancamentos > Menu Tarefa > Contabilidade do Sub-razao > Verificar Lancamentos do Sub-Razao > Informar os parametros necessarios e obrigatorios;Controladoria;Fusion: AP;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;220;220 - Validar Contabilização: Verificar Lancamentos do Sub-Razao;Não Executado;;Tarefa acessada;Verificar Lancamentos do Sub-Razao;Controladoria;Fusion: AP;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;230;230 - Validar Contabilização: Informar os parametros necessarios e obrigatorios;Não Executado;;Dados obrigatorios informados;Informar os parametros necessarios e obrigatorios;Controladoria;Fusion: AP;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;240;240 - Validar Contabilização: Pesquisar lancamentos;Não Executado;;Lancamento encontrado;Pesquisar lancamentos;Controladoria;Fusion: AP;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;250;250 - Validar Contabilizacao;Não Executado;;Contabilizacao validada;Validar Contabilizacao;Controladoria;Fusion: AP;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;260;"260 - Contabilizar o CTE ""FINAL""";Não Executado;;Documento contabilizado;"1) Manual: Contas a Pagar > Tarefas > NFFs/Pagamentos > Acoes > Contabilizar como Preliminar
+2) Programado: Ferramentas > Processos Programados > Criar Contabilidade > Parametros: 
+Aplicativo do Sub-Razão: Contas a Pagar
+Razão: (Informar o Razão da Empresa)
+Data Final: (Sysdate)
+Modo de Contabilidade: Final
+Eventos do Processo: Todos
+Estilo do Relatório: Detalhes
+Transferir para Razão Geral: Sim
+Contabilizar no Razão Geral: Não
+*Incluir Identificadores de Transação do Usuário: Não	";Controladoria;Fusion: AP;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;MAR_E_TERRA.PTM.053.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAR_E_TERRA.PTM.053.V2"").click()";MAR & TERRA INDUSTRIA E COMERCIO DE PESCADOS S.A;1;tr_child_9;270;270   - Escrituração fiscal do Documento;Não Executado;;Conferencias Fiscais e Obrigações Acessórias;Escrituração fiscal do Documento para Obrigações Acessórias;Fiscal;THON:TaxOne;Deise Cristiane da Rosa;;

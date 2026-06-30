@@ -1,0 +1,2 @@
+﻿LIDER_CENARIO;STATUS_EDIT_CENARIO;IDENTIFICADOR_DE_CENARIO;COMANDO_CENARIO_EXECUCOES;NOME_CENARIO;PAGINA_APEX;ORIGEM_LINHA;Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
+RenatoMezzalira;SEM_EDIT_PLACEHOLDER;MAIS_FRANGO.PTM.283.V4;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAIS_FRANGO.PTM.283.V4"").click()";GRF.04.OUTROS.0049 - ENERGIA ELETRICA;1;tr_child_70;;;;;;;;;;;
