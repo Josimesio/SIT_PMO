@@ -1,0 +1,114 @@
+﻿LIDER_CENARIO;STATUS_EDIT_CENARIO;IDENTIFICADOR_DE_CENARIO;COMANDO_CENARIO_EXECUCOES;NOME_CENARIO;PAGINA_APEX;ORIGEM_LINHA;Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;10;10 - Pré-Validação de Cadastros - ITEM;Sucesso;;Confirmar Item cadastrado no Oracle.;Pré-Validação de Cadastros de ITENS;Cadastros;Fusion: INV;Leonardo Gomes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;20;20 - Pré-Validação de Cadastros - CLIFOR;Sucesso;;Confirmar os Fornecedores/Clientes cadastrados nos Oracle.;Pré-Validação de Cadastros de CLIFOR;Cadastros;Fusion: PO;Leonardo Gomes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;30;30 - Adicionar Linhas de catalogos locais;Sucesso;;A requisição é salva com sucesso com todas as linhas informadas corretamente e sem erro de validação.;Requisição de Compra > Adicionar Item do Catalago > Adicionar ao Carrinho ;Compras;Fusion: SSP;Franciele Almeida;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;40;40 - Submeter requisição ;Sucesso;;A requisição é criada no sistema com todas as linhas importadas corretamente, mantendo os dados de origem.;Requisição de Compra > Adicionar Item do Catalago > Adicionar ao Carrinho > Editar Requisição;Compras;Fusion: SSP;Franciele Almeida;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;50;50 - Aprovar requisição;Sucesso;;A requisição avança para o próximo nível do fluxo ou é aprovada, ficando registrada no histórico.;Requisição de Compra > Adicionar Item do Catalago > Adicionar ao Carrinho > Editar Requisição > Aprovar Requisição;Compras;Fusion: SSP;Franciele Almeida;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;60;60 - Criar Ordem de Compra;Sucesso;;Ordem de Compra Criada;Aquisicao > Negociacoes >  Tarefas > Gerenciar Ordens  de Compra > Acoes  > Criar Ordem de Compra;Compras;Fusion: PO;Franciele Almeida;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;70;70 - Editar Ordem de Compra;Sucesso;;Ordem de Compra Editada;Aquisicao > Negociacoes >  Tarefas > Gerenciar Ordens  de Compra > Acoes  > Editar Ordem de Compra;Compras;Fusion: PO;Franciele Almeida;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;80;80 - Submeter Ordem de Compra;Sucesso;;Ordem de Compra Submetida;Aquisicao > Negociacoes >  Tarefas > Gerenciar Ordens  de Compra > Acoes  > Submeter Ordem de Compra;Compras;Fusion: PO;Franciele Almeida;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;90;90 - Aprovar Ordem de Compra;Sucesso;;Ordem de Compra Aprovada;Aquisicao > Negociacoes >  Tarefas > Gerenciar Ordens  de Compra > Acoes  > Aprovar Ordem de Compra;Compras;Fusion: PO;Franciele Almeida;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;100;100 - Upload do XML/Documento Fiscal de Serviço para ferramenta TaxfyLink;Não Executado;;Arquivo Carregado;"Capturar os documentos que tem a origem nas Prefeituras onde o TAXFYLINK realizará a busca do lote (NSU) de documentos e eventos disponíveis na base das Prefeituras para download. Para nota fiscal de serviços, a ferramenta processara as notas fiscais de serviços, que ao entrarem na ferramenta será estruturado e direcionados para o TAXFY.
+* A Origem de documentos em PDF (recibos, outros documentos) deverão estar salvos em um diretorio especifico e definido pela KTGroup e Grupo Pluma";Fiscal;KT: Taxfy;Deise Cristiane da Rosa;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;110;110 - Monitor de Pedidos > Realiza Match Pedido de Compra;Não Executado;;Com base no XPED, será realizado a associação do pedido para seguir para as demais validações;"""Processo onde é realizado o Match do pedido de compras X a nota fiscal de serviços recebida, processo automatico."
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;"* Se o Documento não encontrar um Pedido correspondente, o Analista pode selecionar manualmente os pedidos de compras com Saldo em Aberto.""""""";Fiscal;KT: Taxfy;Deise Cristiane da Rosa;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;120;120 - Validação Comercial do Documento;Não Executado;;Documento Fiscal validado conforme Ordem de Compra;Confrontar os dados da NFSe/Documento x Pedido de Compras, será validado o CNPJ do Emissor, CNPJ do Destinatário, Pedido de Compras, Item do Pedido, Unidade de Medida, Moeda, Quantidade e Valor. ;Fiscal;KT: Taxfy;Deise Cristiane da Rosa;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;130;130 - Retorno Validação Tributária;Não Executado;;Validação tributária do documento Fiscal Concluida;"""o TAXFY irá consultar o retorno da validação tributária realizada no TAXFYLINK."
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;STATUS:
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;“ Sucesso” quando não houver problema na verificação
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;“Alerta” quando existir algum item onde poderia ser processado com alguma tributação diferente, de acordo com CFOP do produto
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;"“ Erro” onde status do documento ficará com inconsistência no menu do monitor de documento, aguardando ação do analista, ou de operação não realizada por conta de erros na tributação.""""""";Fiscal;KT: Taxfy;Deise Cristiane da Rosa;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;140;140 -Realizar o PayLoad do documento fiscal para o Oracle Fusion Contas a Pagar;Não Executado;;Validação concluida e nota fiscal de serviços / documento integrado com Oracle Contas a `Pagar;Após Validação, TAXFY realizará o envio dos XMLs para o OIC, para que seja disponibilizado no Oracle Fusion;Fiscal;KT: Taxfy;Deise Cristiane da Rosa;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;150;150 - Gerenciar Documento na Interface do Contas a Pagar;Não Executado;;Documento ajustado para reprocessamento;"Em caso de Rejeições na Interface Aberta do Contas a Pagar, seguir os passos abaixo:
+Contas a Pagar > Tarefas > NFFs > Corrigir Erros de Importação > Download do arquivo > CorrectImporErrors:
+Ao Abrir o arquivo:
+ 1. Vair ter a mensagem para estabeceler a Conexão com Oracle;
+ 2. Informar Usuário e Senha:
+ 3. Irá abrir a planilha Corrigir Erros de Importação;
+ 4. Observar a coluna Erros de Importação:
+    Ex. Rejeicoes de Linhas; Sem Linhas de NFF; Valor; Sem fornecedor
+ 5. Realizar as correções
+ 6.  Clicar em: Salvar e Enviar informações da NFF
+  ";Fiscal;Fusion: AP;Deise Cristiane da Rosa;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;160;160 - Importar os Documentos Fiscais da Interface do Contas a Pagar;Não Executado;;Documento ajustado para reprocessamento;"Programado: Ferramentas > Processos Programados > Porgramar Novo Processo> Nome: Importar NFFs do Payables > OK
+Informar os Parametros:
+ Unidade de Negócio:
+ Razão:
+ Origem:";Fiscal;Fusion: AP;Deise Cristiane da Rosa;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;170;170 - Validar informacoes fiscais e impostos dos Documentos no Oracle Contas a Pagar;Não Executado;;Informações Fiscais e Impostos do Documento Fiscal Validado.;"Acesso o Módulo do Contas a Pagar: 
+Navegador > Contas a  pagar > NFF > Tarefas > Gerenciar NFF > Informar parâmetros de pesquisa
+1. Validar informações Fiscais do Cabeçalho da NFF;
+    Mostrar Mais:
+    Valor do Contexto: ISV Additional Information
+    Modelo: 1
+2. Validar informações das Linhas da NFF:
+    Revisar informacoes das linhas
+    Retenção na Fonte
+    CFOP de entrada
+    Intenção de Uso
+    Classificação Fiscal definida pelo Usúario
+    NCM (Classificação Fiscal do Produto)
+ 3. Linhas do Imposto Resumido
+     Impostos da Transação
+     Impostos com Retenção na Fonte     ";Fiscal;Fusion: AP;Deise Cristiane da Rosa;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;180;180 - Conferir informações financeiras da Nota Fiscal no Contas a Pagar;Não Executado;;Informações Financeiras Validadas;"Acesso o Módulo do Contas a Pagar: 
+Navegador > Contas a  pagar > NFF > Tarefas > Gerenciar NFF > Informar parâmetros de pesquisa
+1. Validar informações Financeiras da  da NFF;
+    Parcelas:
+    Grupo de Pagamento;
+    Data de Vencimento;
+    Valores das Parcelas;
+    Prioridade de Pagamento;
+    Metodo de Pagamento;
+    Conta Bancária;
+   ";Financeiro;Fusion: AP;Roberta Bezerra;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;190;185 - Realizar Confirmação do Serviço devidamente Executado;Não Executado;;Workflow Aprovado pelo Requisitante;Acessar Oracle Cloud > Navegador > Notificações/Sininho >  Aprovar ou Clicar na Notificação Recebida > Aprovar;Compras;Fusion: AP;Franciele Almeida;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;200;190 - Realizar a validacao da NF no Contas a Pagar;Não Executado;;Titulo validado;"Manual: Contas a Pagar > Tarefas > NFFs > Acoes > Validar
+Programado: Ferramentas > Processos Programados > Validar NFFs de Contas a Pagar";Fiscal;Fusion: AP;Deise Cristiane da Rosa;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;210;200 - Gerar o Lote de Pagamento;Não Executado;;"Tarefa acessada
+Dados obrigatórios informados
+Dados obrigatórios informados
+Parcelas selecionadas
+Pagamentos agrupados
+Arquivo de remesssa gerado";"1.Navegador > Contas a  pagar > Pagamentos
+  Tarefas > Enviar Solicitacao de Processo de Pagamento
+2.Informar o nome do lote de pagamento e Informar o Modelo de Pagamento
+3.Aba Critérios de Selecao preencher
+  Pagar Até a Data <Informar a Data>
+  Data de Inicio do Pagamento <Informar a Data> Inserir
+4.Conferir as abas Critérios de Selecao e Opcoes de Processo de pagamento e Clicar em Submeter  
+5.Clicar em Atualizar > Status Revisao de Parcela Pendente > Acao > Submeter
+6.Clicar em Atualizar
+  Com status Verificacao de Pagamento proposto Pendente: Clicar em Acao > Reiniciar processo de Pagamento
+7.Em Solicitacoes de Programacao > Clicar em Atualizar";Financeiro;Fusion: AP;Roberta Bezerra;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;220;210 - Validar Lote de Pagamento Criado;Não Executado;;"Pagamentos criados
+Arquivo de remesssa gerado";"1.Verificar se não houve rejeições no Lote de Pagamento
+2.Confirmar arquivo de Remessa Criado";Financeiro;Fusion: AP;Roberta Bezerra;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;230;"220 - Contabilizar a NF e Pagamentos ""PRELIMINAR""""""";Não Executado;;Documento contabilizado;"1) Manual: Contas a Pagar > Tarefas > NFFs/Pagamentos > Acoes > Contabilizar como Preliminar
+2) Programado: Ferramentas > Processos Programados > Criar Contabilidade > Parametros:
+Aplicativo do Sub-Razão: Contas a Pagar
+Razão: (Informar o Razão da Empresa)
+Data Final: (Sysdate)
+Modo de Contabilidade: Preliminar
+Eventos do Processo: Todos
+Estilo do Relatório: Detalhes
+Transferir para Razão Geral: Não
+Contabilizar no Razão Geral: Não
+*Incluir Identificadores de Transação do Usuário: Não";Contabilidade;Fusion: AP;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;240;230 - Validar Contabilização: Selecionar Tarefa Contabilidade do Sub-razao;Não Executado;;Tarefa acessada;Navegador > Contabilidade Geral > Lancamentos > Menu Tarefa > Contabilidade do Sub-razao > Verificar Lancamentos do Sub-Razao > Informar os parametros necessarios e obrigatorios;Contabilidade;Fusion: GL;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;250;240 - Validar Contabilização: Verificar Lancamentos do Sub-Razao;Não Executado;;Tarefa acessada;Verificar Lancamentos do Sub-Razao;Contabilidade;Fusion: GL;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;260;250 - Validar Contabilização: Informar os parametros necessarios e obrigatorios;Não Executado;;Dados obrigatorios informados;Informar os parametros necessarios e obrigatorios;Contabilidade;Fusion: GL;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;270;260 - Validar Contabilização: Pesquisar lancamentos;Não Executado;;Lancamento encontrado;Pesquisar lancamentos;Contabilidade;Fusion: GL;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;280;270 - Validar Contabilizacao;Não Executado;;Contabilizacao validada;Validar Contabilizacao;Contabilidade;Fusion: GL;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;290;"280 - Contabilizar a NF e Pagamentos ""FINAL""""""";Não Executado;;Documento contabilizado;"1) Manual: Contas a Pagar > Tarefas > NFFs/Pagamentos > Acoes > Contabilizar como Final
+2) Programado: Ferramentas > Processos Programados > Criar Contabilidade > Parametros:
+Aplicativo do Sub-Razão: Contas a Pagar
+Razão: (Informar o Razão da Empresa)
+Data Final: (Sysdate)
+Modo de Contabilidade: Final
+Eventos do Processo: Todos
+Estilo do Relatório: Detalhes
+Transferir para Razão Geral: Sim
+Contabilizar no Razão Geral: Não
+*Incluir Identificadores de Transação do Usuário: Não";Contabilidade;Fusion: AP;Walceir Hernandes;;
+RenatoMezzalira;COM_EDIT_DOWNLOAD;PLUMA_AGRO.PTM.2349.V1;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""PLUMA_AGRO.PTM.2349.V1"").click()";GRF.04.0060 - SERVIÇOS DE PROGRAMAÇÃO E COMUNICAÇÃO VISUAL;1;tr_child_77;300;290  - Escrituração fiscal do Documento;Não Executado;;Conferencias Fiscais e Obrigações Acessórias;Escrituração fiscal do Documento para Obrigações Acessórias;Fiscal;THON:TaxOne;Deise Cristiane da Rosa;;
