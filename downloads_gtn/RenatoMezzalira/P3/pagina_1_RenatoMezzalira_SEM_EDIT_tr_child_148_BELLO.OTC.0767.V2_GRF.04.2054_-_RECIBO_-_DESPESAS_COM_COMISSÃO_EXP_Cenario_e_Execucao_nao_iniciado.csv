@@ -1,2 +1,0 @@
-﻿LIDER_CENARIO;STATUS_EDIT_CENARIO;IDENTIFICADOR_DE_CENARIO;COMANDO_CENARIO_EXECUCOES;NOME_CENARIO;PAGINA_APEX;ORIGEM_LINHA;Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
-RenatoMezzalira;SEM_EDIT_PLACEHOLDER;BELLO.OTC.0767.V2;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""BELLO.OTC.0767.V2"").click()";GRF.04.2054 - RECIBO - DESPESAS COM COMISSÃO EXP;1;tr_child_148;;;;;;;;;;;

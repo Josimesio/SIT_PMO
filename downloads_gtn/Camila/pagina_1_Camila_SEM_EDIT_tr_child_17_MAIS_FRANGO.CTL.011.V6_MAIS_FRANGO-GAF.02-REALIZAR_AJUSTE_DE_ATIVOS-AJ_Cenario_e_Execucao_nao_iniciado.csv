@@ -1,2 +1,0 @@
-﻿LIDER_CENARIO;STATUS_EDIT_CENARIO;IDENTIFICADOR_DE_CENARIO;COMANDO_CENARIO_EXECUCOES;NOME_CENARIO;PAGINA_APEX;ORIGEM_LINHA;Seq.;Atividade;Resultado;Comentário;Resultado Esperado;Descrição;Área de Negocio;Módulo/Sistema;Usuário Responsável;Anotações;Tempo (Minutos)
-Camila;SEM_EDIT_PLACEHOLDER;MAIS_FRANGO.CTL.011.V6;"page.locator(""iframe[title=""Cenário e Execuções""]"").content_frame.get_by_text(""MAIS_FRANGO.CTL.011.V6"").click()";MAIS FRANGO-GAF.02-REALIZAR AJUSTE DE ATIVOS-AJUSTE METODO DEPREC/AMORT/EXAUS (APROVAR);1;tr_child_17;;;;;;;;;;;
